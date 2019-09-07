@@ -1,0 +1,20 @@
+{
+    "name": "aadithya/sample",
+    "description": "this is sample",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aadithya\\sample\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aadithya\\sample\\SampleServiceProvider"
+            ]
+        }
+    }
+}
